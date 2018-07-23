@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
         <div class="jumbotron">
             <h1 class="display-4">Survey Questions</h1>
-            <hr class="my-4"></h4>
+            <hr class="my-4">
+            </h4>
             <h1 class="display-6">About You</h1>
         </div>
         <form>
             <!-- Full Name -->
             <div class="form-group">
-                <label for="name"> <b>Full Name (required)</b></label>
+                <label for="name">
+                    <b>Full Name (required)</b>
+                </label>
                 <input type="text" id="name" class="form-control" required>
             </div>
 
             <!-- Link to image -->
             <div class="form-group">
-                <label for="name"> <b>Linked to photo image (required)</b></label>
+                <label for="name">
+                    <b>Linked to photo image (required)</b>
+                </label>
                 <input type="text" id="profilePic" class="form-control" required>
             </div>
             <hr class="my-4">
@@ -32,7 +49,9 @@
             <!-- Question 1 -->
             <h3>Question 1</h3>
             <div class="form-group">
-                <label class="col-md-12" for="question1"><b>Your mind is always buzzing with unexplored ideas and plans.</b></label>
+                <label class="col-md-12" for="question1">
+                    <b>Your mind is always buzzing with unexplored ideas and plans.</b>
+                </label>
                 <select class="custom-select col-md-3" id="q1">
                     <option></option>
                     <option value="1">1 (strongly disagree)</option>
@@ -46,7 +65,9 @@
             <!-- Question 2 -->
             <h3>Question 2</h3>
             <div class="form-group">
-                <label class="col-md-12" for="question2"><b>Generally speaking, you rely more on your experience than your imagination.</b></label>
+                <label class="col-md-12" for="question2">
+                    <b>Generally speaking, you rely more on your experience than your imagination.</b>
+                </label>
                 <select class="custom-select col-md-3" id="q2">
                     <option></option>
                     <option value="1">1 (strongly disagree)</option>
@@ -60,7 +81,9 @@
             <!-- Question 3 -->
             <h3>Question 3</h3>
             <div class="form-group">
-                <label class="col-md-12" for="question3"><b>You find it easy to stay relaxed and focused even when there is some pressure.</b></label>
+                <label class="col-md-12" for="question3">
+                    <b>You find it easy to stay relaxed and focused even when there is some pressure.</b>
+                </label>
                 <select class="custom-select col-md-3" id="q3">
                     <option></option>
                     <option value="1">1 (strongly disagree)</option>
@@ -74,7 +97,9 @@
             <!-- Question 4 -->
             <h3>Question 4</h3>
             <div class="form-group">
-                <label class="col-md-12" for="question4"><b>You rarely do something just out of sheer curiosity.</b></label>
+                <label class="col-md-12" for="question4">
+                    <b>You rarely do something just out of sheer curiosity.</b>
+                </label>
                 <select class="custom-select col-md-3" id="q4">
                     <option></option>
                     <option value="1">1 (strongly disagree)</option>
@@ -88,7 +113,9 @@
             <!-- Question 5 -->
             <h3>Question 5</h3>
             <div class="form-group">
-                <label class="col-md-12" for="question5"><b>People can rarely upset you.</b></label>
+                <label class="col-md-12" for="question5">
+                    <b>People can rarely upset you.</b>
+                </label>
                 <select class="custom-select col-md-3" id="q5">
                     <option></option>
                     <option value="1">1 (strongly disagree)</option>
@@ -102,7 +129,9 @@
             <!-- Question 6 -->
             <h3>Question 6</h3>
             <div class="form-group">
-                <label class="col-md-12" for="question6"><b>It is often difficult for you to relate to other people’s feelings.</b></label>
+                <label class="col-md-12" for="question6">
+                    <b>It is often difficult for you to relate to other people’s feelings.</b>
+                </label>
                 <select class="custom-select col-md-3" id="q6">
                     <option></option>
                     <option value="1">1 (strongly disagree)</option>
@@ -116,7 +145,9 @@
             <!-- Question 7 -->
             <h3>Question 7</h3>
             <div class="form-group">
-                <label class="col-md-12" for="question7"><b>In a discussion, truth should be more important than people’s sensitivities.</b></label>
+                <label class="col-md-12" for="question7">
+                    <b>In a discussion, truth should be more important than people’s sensitivities.</b>
+                </label>
                 <select class="custom-select col-md-3" id="q7">
                     <option></option>
                     <option value="1">1 (strongly disagree)</option>
@@ -130,7 +161,9 @@
             <!-- Question 8 -->
             <h3>Question 8</h3>
             <div class="form-group">
-                <label class="col-md-12" for="question8"><b>You rarely get carried away by fantasies and ideas.</b></label>
+                <label class="col-md-12" for="question8">
+                    <b>You rarely get carried away by fantasies and ideas.</b>
+                </label>
                 <select class="custom-select col-md-3" id="q8">
                     <option></option>
                     <option value="1">1 (strongly disagree)</option>
@@ -144,7 +177,10 @@
             <!-- Question 9 -->
             <h3>Question 9</h3>
             <div class="form-group">
-                <label class="col-md-12" for="question9"><b>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</b></label>
+                <label class="col-md-12" for="question9">
+                    <b>You think that everyone’s views should be respected regardless of whether they are supported by facts
+                        or not.</b>
+                </label>
                 <select class="custom-select col-md-3" id="q9">
                     <option></option>
                     <option value="1">1 (strongly disagree)</option>
@@ -158,7 +194,9 @@
             <!-- Question 10 -->
             <h3>Question 10</h3>
             <div class="form-group">
-                <label class="col-md-12" for="question10"><b>You feel more energetic after spending time with a group of people.</b></label>
+                <label class="col-md-12" for="question10">
+                    <b>You feel more energetic after spending time with a group of people.</b>
+                </label>
                 <select class="custom-select col-md-3" id="q10">
                     <option></option>
                     <option value="1">1 (strongly disagree)</option>
@@ -168,8 +206,52 @@
                     <option value="5">5 (strongly agree)</option>
                 </select>
             </div>
-            <button class="btn btn-primary" type="submit">Submit</button>
+            <button id="submit" class="btn btn-primary" type="submit">Submit</button>
         </form>
     </div>
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Your best match!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5 id="bestMatchName"></h5>
+                    <img class="img-fluid" id="bestMatchPhoto" src="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('#submit').on("click", function (e) {
+            e.preventDefault();
+            var userData = {
+                name: $('#name').val().trim(),
+                photo: $('#profilePic').val().trim(),
+                scores: [
+                    parseInt($("#q1").val()),
+                    parseInt($("#q2").val()),
+                    parseInt($("#q3").val()),
+                    parseInt($("#q4").val()),
+                    parseInt($("#q5").val()),
+                    parseInt($("#q6").val()),
+                    parseInt($("#q7").val()),
+                    parseInt($("#q8").val()),
+                    parseInt($("#q9").val()),
+                    parseInt($("#q10").val())
+                ]
+            }
+            $.post("/api/friends", userData, function (data) {
+                $("#bestMatchName").text(data.name);
+                $("#bestMatchPhoto").attr("src", data.photo);
+                $(".modal").modal("toggle");
+            });
+        });
+    </script>
 </body>
+
 </html>
